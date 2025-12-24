@@ -14,6 +14,7 @@ void main() {
         BlocProvider(create: (context) => AuthCubit(adminRepository)),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: AdminDashboardCubitProvider(adminRepository: adminRepository),
       ),
     ),

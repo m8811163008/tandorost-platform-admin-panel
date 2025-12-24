@@ -28,6 +28,7 @@ class AdminDashboardPage extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: Colors.grey[50], // Professional soft background
+
       appBar: AppBar(
         title: const Text(
           "System Analytics",
